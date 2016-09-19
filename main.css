@@ -1,0 +1,497 @@
+/* ...........   Univer   selecter  ..................*/
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+
+/*............   Default   Value  starting ..................................*/
+
+h1 {
+    text-align: center;
+    font-size: 180%;
+    line-height: 120%;
+    padding: 5% 0;
+}
+
+h2 {
+    text-decoration: none;
+    line-height: 280%;
+    padding-left: 2%;
+}
+
+h3 {
+    line-height: 110%;
+    padding: 5% 0;
+}
+
+p {
+    padding: 1%;
+}
+
+img {
+    text-align:center;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+nav {
+    float: right;
+    padding: 30px 20px 20px 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    float: left;
+    padding: 10px
+}
+
+.clear {
+    clear: both;
+}       
+
+/*............   Default   Value  Ends ..................................*/
+
+
+
+/*...............    body   .................................*/
+body {
+    background: #f0f0f0;
+    color: #555;
+    margin: 0;
+}
+
+/*.............   header   .............................*/
+
+header {
+    background-color: #24248f;
+    width: 100%;
+    height: 75px;
+    position: fixed;
+    top: -20px;
+    left: 0;
+    z-index: 100;
+    opacity: 0.90;
+}
+
+/*.............     #logo     ................................*/
+
+#logo {
+    margin: 20px;
+    float: left;
+    width: 200px;
+    height: 60px;
+    font-size: 40px;
+    text-decoration: none;
+
+}
+
+/*..............     #menu  icon     .....................*/
+
+#menu-icon {
+    display: hidden;
+    width: 40px;
+    height: 40px; 
+    background: url(images/Home.png) center;
+}
+
+a:hover#menu-icon {
+    border: 4px 4px 0 0;
+}
+
+.current {
+    color: #FFF;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+
+/*  ......... slider images   ............................  */
+
+#content {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+
+/*...................     Why Book With Us       ...............*/
+
+.common {
+    width: 28%;
+    float: left;
+    margin: 0 2% 2% 2%;
+    text-align: center;
+    list-style: none;
+}
+/*
+.common > img {
+    width: 11px;
+    height: 120px;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    transition: all 2s ease;
+}
+
+.common > img :hover { 
+    width: 201px;
+    height: 200px;
+}*/
+
+/*..................    article  and   aside   .......................*/
+
+article {
+    float: left;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    padding: 4%;
+}
+
+aside {
+    float: right;
+    margin: 0 auto;
+    width: 35%;
+    height: auto;
+    padding: 2%;
+
+}
+
+
+/*.main {
+
+}*/
+
+
+/*.......................     touring   section   ...........................*/
+
+.tour {
+    width: 22%;
+    float: left;
+    margin: 1%;
+    text-align: center;
+} 
+
+.tour > img:hover {
+    opacity: 0.4;
+}
+
+.button {
+    font-family: sans-serif;
+    border: 1px solid white;
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 1%;
+    width: 80%;
+    height: 100%;
+}
+.buttontitle {
+    padding:2% 0 2% 0;
+    float: left;
+    color: white;
+    font-weight: 800;
+    font-size: 150%;
+    background-color: #e60000;
+    width: 80%;
+    height: 100%;
+}
+.price {
+    padding:2% 0 2% 0;
+    width: 20%;
+    height: 100%;
+    float: left;
+    background-color: #ff9900;
+    font-weight: 800;
+    font-size: 150%;
+    text-transform: uppercase;  
+}
+.buttontitle:hover {
+    background-color: #0099cc;
+}
+
+
+/*...................................................................................*/
+
+.floater {
+    background-color: #0099cc;
+    color: black;
+    width: 60%;
+    height: 30%;
+    top: 56px;
+    position: absolute;
+    left: 20%;
+    z-index: 100;
+    opacity: 0.80;
+}
+
+#first > input {
+    height: 20px;
+    width:50px;
+}
+
+.form {
+    width: 28%;
+    float: left;
+    margin: 2%;
+    text-align: center;
+}
+
+.title {
+    color: #ffff00;
+    font-size: 30px;
+}
+
+.selection {
+    color: #cc3300;
+    font-size: 20px;
+}
+
+.first > input {
+    padding: 2%;
+    margin: 2%;
+    width: 30%;
+}
+
+
+.second > input{
+    padding: 2%;
+    margin: 2%;
+    width: 90%;
+}
+
+.third > input {
+    padding: 2%;
+    margin: 2%;
+    width: 90%;
+}
+
+#submit {
+    font-family: sans-serif;
+    border: 1px solid white;
+    cursor: pointer;
+    padding: 2%;
+    width: 260px;
+    height: 50px;
+    background-color: #e67300;
+}
+
+#submit:hover {
+    background-color: #ff9900;
+}
+
+#submitbutton {
+    position: absolute;
+    top: 140px;
+    margin-left: 31%;
+}
+input[type="submit"] {
+    background-color: #e67300;
+    font-size: 20px;
+    color: white;
+}
+
+
+/*...............................................................*/
+
+.icn > img {
+      /*border-radius: 100%;
+      -webkit-transition: -webkit-transform .8s ease-in-out;*/
+              /*transition:         transform .8s ease-in-out;*/
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+.icn >img:hover {
+  -webkit-transform: rotate(360deg);
+  opacity: 0.9;
+          /*transform: rotate(360deg);*/
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*..............    footer first  .......................*/
+
+footer {
+    background: #e67300;
+    width: 100%;
+    overflow: hidden;
+    opacity: 0.90;
+}
+
+footer p, footer h3 {
+    color: #FFF;
+}
+
+footer p a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+ul.social li {
+    display: inline;
+}
+
+ul.social li img {
+    height: 50px;
+}
+
+
+.foot {
+    width: 29%;
+    float: left;
+    margin: 2%;
+    text-align: center;
+}
+/*
+.special {
+
+}*/
+
+
+/*..............   footer  second    .............................*/
+
+
+footer.second {
+    border-top: 1px solid #4D4E50;
+    background-color: #333333;
+    max-height: 50px;
+    text-align: center;
+    opacity: 0.95; 
+}
+
+
+#form input{
+    height: auto;
+    margin: 1%;
+    padding: 2%;
+}
+
+
+/*............    footer   Ends    ..............................*/
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------Media!!!..............*/
+
+@media screen and (max-width: 478px) {
+    body {
+        position: absolute;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    header {
+        position: absolute;
+    }
+    #menu-icon {
+        display: inline-block;
+    }
+
+    nav ul, nav:active ul {
+        display: none;
+        position: absolute;
+        padding: 20px;
+        background: #405580;
+        border: 1px solid #FFF;
+        right: 20px;
+        top: 60px;
+        width: 50%;
+        border-radius: 2px 0 2px 2px;
+    }
+
+    nav li {
+        text-align: center;
+        width: 100%;
+        padding: 10px 0;
+        margin: 0;
+    }
+
+    nav:hover ul {
+        display: block;
+    }
+    .tour {
+        float: left;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    article {
+        float: left;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    aside {
+        float: left;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .button {
+        padding: 0;
+        width: 50%;
+        height: 150%;
+    }
+    .buttontitle {
+        padding:0;
+        font-size: 100%;
+    }
+    .price {
+        padding:0;
+        font-size: 100%; 
+    }
+    .common {
+    width: 80%;
+    float: left;
+    padding: 0;
+    margin: 0;
+    }
+    
+    #show {
+        display: none;
+    }
+}
